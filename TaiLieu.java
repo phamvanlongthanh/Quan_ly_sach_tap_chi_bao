@@ -21,6 +21,7 @@ public class TaiLieu {
     public void setSoBanPhatHanh(int soBanPhatHanh) { this.soBanPhatHanh = soBanPhatHanh; }
 
     public void hienThiThongTin() {
+        System.out.println("---------------------------------Thong_tin_tai_lieu--------------------------");
         System.out.println("Ma TL: " + maTaiLieu + " | NXB: " + tenNXB + " | So ban PH: " + soBanPhatHanh);
     }
 }
