@@ -14,6 +14,7 @@ public class Sach extends TaiLieu {
     @Override
     public void hienThiThongTin() {
         super.hienThiThongTin();
+        System.out.println("----------------------Thong_tin_sach-----------------------");
         System.out.println("   [Sach] Tac gia: " + tenTacGia + " | So trang: " + soTrang);
     }
 }
