@@ -14,6 +14,6 @@ public class TapChi extends TaiLieu {
     @Override
     public void hienThiThongTin() {
         super.hienThiThongTin();
-        System.out.println("   [Tap chi] So PH: " + soPhatHanh + " | Thang PH: " + thangPhatHanh);
+        System.out.println("   [Tap chi tre em] So PH: " + soPhatHanh + " | Thang PH: " + thangPhatHanh);
     }
 }
